@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(23, 0, 58);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .centered {
+    display: flex;
+    justify-content: center;
+} */
+
+.flex {
+    display:flex;
+    justify-content: center;
+}
+
+#start-row {
+    display: grid;
+    grid-template-columns: 1fr 50rem 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.scorecard {
+    background-color: lightgray;
+    border-radius: 0.125rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+#gameboard {
+    width: 75rem;
+    height: 40rem;
+    background-color: rgb(23, 0, 58);
+    border: 0.125rem solid white;
+}
+
+.ball {
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.paddle {
+    height: 6rem;
+    width: 1rem;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+button {
+    font-size: 1.5rem;
+    /* letter-spacing: 0.2rem; */
+    height: 3rem;
+    background-color: lightgray;
+    border-color:#ffffff;
+    border-radius: 0.25rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    /* padding: 0.25rem; */
+}
+
+#start {
+    width: 50rem;
+}
+
+#reset {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color: red;
+    background-color: #0000;
+    border: none;
+}
